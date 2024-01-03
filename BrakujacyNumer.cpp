@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-using namespace std;
+using namespace std; //przestrzen nazw
 void find(vector<int>&vec){
     int sum_e = (vec.size()+1)*vec.size()/2;
     int sum_a = 0;
